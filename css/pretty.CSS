@@ -1,0 +1,213 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+ font-family: 'Playfair Display', serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+ }
+
+
+a {
+text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+h3  {
+  margin: 0 0 1em 0;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin 0 0 10px 0;
+  padding: 10px 0 0 0;
+  width: 100%;
+  
+}
+
+/*logo text*/
+
+#logo {
+  text-align: center;
+  margin: 0;
+  color: #3bf992;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  margin: 5px 0;
+  font-size: 3.00em;   /* 1 em is equivelent to 16pixels*/
+  font-weight: normal; /* boldness - headlines are naturally bold */
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Old standard TT', serif;
+  font-size: 1.75em;
+  margin: 5px 0 0; /* 1 - top , 2 - L & R, 3 - bottom -- negative element pulls everything closer*/
+}  
+  
+  
+ /**********************************
+NAVIGATION
+***********************************/ 
+    
+nav {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px
+  padding: 0;
+}
+
+
+nav li {
+  display: inline-block;
+  font-size: 1.25em;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 40px;  
+}
+ /**********************************
+FOOTER
+***********************************/ 
+
+footer{
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px
+  color: #666;
+}
+
+.social-link {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;  
+}
+
+
+/**********************************
+PAGE: PORTFOLIA
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color:#ff5f7f;
+  color: #234d5a;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 0%;
+  font-size: 0.75em;
+  color: #fff;
+}
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+
+.profile-picture {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/**********************************
+PAGE: CONTACTUSSS
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../EvawithPiano.jpg')
+}
+
+.contact-info li.Email a {
+  background-image: url('../EvawithPiano.jpg')
+}
+
+.contact-info li.soundcloud a {
+  background-image: url('../EvawithPiano.jpg')
+}
+
+/************************************
+COLORS
+*************************************/
+
+
+/* site body */
+body {
+ background-color: #ff5f6f;
+}
+
+header {
+  background: #391f44;
+  border-color: #c4b2d1;
+  padding: 20px;
+}
+
+nav {
+  background: #98abbb;
+}
+
+
+h1, h2 {
+  color: #3d8f6b;
+}
+
+/* this one changes the color of the links */
+
+nav a, nav a:visited {
+  color: #a34d6a;
+}
+
+/*this one changes the color of the link when the mouse hovers over it*/
+
+nav a.selected, nav a:hover {
+  color: #655d1a;
+}
